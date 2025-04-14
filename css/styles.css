@@ -40,10 +40,7 @@ img {
   justify-content: space-between;
   align-items: center;
 }
-/* section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-} */
+
 /*head-logo*/
 
 .logo {
@@ -54,7 +51,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  /* margin-right: 76px; */
+
   margin-right: 149px;
   padding-top: 16px;
   padding-bottom: 16px;
@@ -163,7 +160,6 @@ img {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-head-close {
-  /* display: block; */
   margin-left: auto;
   margin-bottom: 24px;
   border-radius: 4px;
@@ -252,7 +248,7 @@ img {
 /*main-h1-p-btn*/
 .section-title {
   background: #2e2f42;
-  /* max-width: 1440px; */
+
   max-width: 320px;
   margin: 0 auto;
   background-image: linear-gradient(
@@ -263,8 +259,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* padding-top: 188px;
-  padding-bottom: 188px; */
+
   padding-top: 72px;
   padding-bottom: 72px;
 }
@@ -280,13 +275,12 @@ img {
 .title-text {
   font-size: 36px;
   line-height: 1.11;
-  /* font-size: 56px;
-  line-height: 1.07; */
+
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
   margin: 0 auto;
-  /* max-width: 496px; */
+
   max-width: 216px;
 }
 .title-btn {
@@ -302,7 +296,7 @@ img {
   display: block;
   min-width: 169px;
   margin: 0 auto;
-  /* margin-top: 48px; */
+
   margin-top: 72px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
@@ -325,20 +319,8 @@ img {
 }
 .features-icon {
   display: none;
-  /* max-width: 100%;
-  height: 112px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  border: 1px solid #8e8f99;
-  background-color: #f4f4fd;
-  border-radius: 4px;
-  margin-bottom: 8px; */
 }
 .features-item {
-  /* width: calc((100% - 72px) / 4); */
 }
 .visually-hidden {
   position: absolute;
@@ -353,8 +335,6 @@ img {
   overflow: hidden;
 }
 .features-subtitle {
-  /* font-weight: 500;
-  font-size: 20px; */
   margin-bottom: 8px;
   font-weight: 700;
   font-size: 36px;
@@ -380,7 +360,7 @@ img {
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  /* gap: 24px; */
+
   gap: 72px;
   justify-content: center;
 }
@@ -399,8 +379,7 @@ img {
 }
 .team-item {
   background-color: #ffffff;
-  /* width: calc((100% - 72px) / 4); */
-  /* width: 100%; */
+
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -478,7 +457,6 @@ img {
   row-gap: 48px;
 }
 .portfolio-item {
-  /* width: calc((100% - 48px) / 3); */
   width: 100%;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -520,7 +498,7 @@ img {
 
 .section-footer {
   background: #2e2f42;
-  /* padding: 100px 0; */
+
   padding: 96px 0;
 }
 
@@ -532,7 +510,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  /* display: inline-block; */
+
   display: block;
   margin-bottom: 16px;
   text-align: center;
@@ -549,13 +527,12 @@ img {
 }
 .footer-cont-soc {
   display: flex;
-  /* align-items: baseline; */
+
   justify-content: center;
   flex-wrap: wrap;
   gap: 72px;
 }
 .footer-cont {
-  /* margin-right: 120px; */
 }
 .footer-text-link {
   font-weight: 500;
@@ -611,7 +588,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* gap: 24px; */
+
   gap: 16px;
 }
 
@@ -690,8 +667,7 @@ img {
   top: 50%;
   left: 50%;
   border-radius: 4px;
-  /* width: 408px;
-  min-height: 584px; */
+
   width: 288px;
   min-height: 623px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
@@ -701,8 +677,7 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding-top: 72px;
   padding-bottom: 24px;
-  /* padding-left: 24px;
-  padding-right: 24px; */
+
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -753,14 +728,14 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  /* min-width: 360px; */
+
   min-width: 256px;
   margin-bottom: 16px;
 }
 .modal-input {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  /* width: 360px; */
+
   width: 256px;
   padding-left: 38px;
   min-height: 40px;
@@ -801,7 +776,7 @@ img {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  /* width: 360px; */
+
   width: 256px;
   height: 120px;
   padding: 8px 16px;
@@ -934,10 +909,42 @@ span {
     line-height: 1.07;
     max-width: 496px;
   }
-  .footer-form-container {
+  .logo {
+    margin-right: 120px;
+    padding: 0;
+  }
+  .header-navigation {
     display: flex;
+    gap: 40px;
+  }
+  .header-navigation-address {
+    display: flex;
+
+    gap: 12px;
     flex-direction: column;
   }
+  .header-navigation-address-item {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+  }
+  .navigation-address {
+    padding: 0;
+  }
+  .header-btn {
+    display: none;
+  }
+
+  .footer-form-container {
+    margin: 0;
+  }
+  .footer-cont-soc {
+    justify-content: flex-start;
+    padding-left: 108px;
+    column-gap: 24px;
+  }
+
   .title-btn {
     margin-top: 36px;
   }
@@ -946,6 +953,9 @@ span {
   }
   .section-team .container {
     max-width: 584px;
+  }
+  .features-subtitle {
+    text-align: start;
   }
   .features-item {
     flex-basis: calc((100% - 24px) / 2);
@@ -989,6 +999,10 @@ span {
   .modal-text-area {
     width: 360px;
   }
+  .footer-form {
+    align-items: start;
+    justify-content: start;
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -1003,6 +1017,12 @@ span {
   .header-navigation-address {
     display: flex;
     gap: 40px;
+    flex-direction: row;
+  }
+  .header-navigation-address-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
   }
   .header-btn {
     display: none;
@@ -1094,6 +1114,9 @@ span {
   }
   .logo-footer {
     display: inline-block;
+  }
+  .footer-form-container {
+    margin-left: auto;
   }
   .footer-cont-soc {
     align-items: baseline;
