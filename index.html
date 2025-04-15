@@ -55,6 +55,7 @@
             </li>
           </ul>
         </address>
+        <!-- menu-mob -->
         <button type="button" class="header-btn" data-menu-open>
           <svg class="btn-hed" width="24" height="24">
             <use href="./images/icons.svg#icon-btn-header"></use>
@@ -62,7 +63,7 @@
         </button>
       </div>
       <div class="mob-menu" data-menu>
-        <div>
+        <div class="mob-menu-cont">
           <button type="button" class="btn-head-close" data-menu-close>
             <svg class="icon-close-head" width="8" height="8">
               <use href="./images/icons.svg#icon-close-btn"></use>
@@ -85,53 +86,55 @@
           </nav>
         </div>
         <div>
-          <ul class="mob-navigation-address">
-            <li class="mob-navigation-address-item">
-              <a
-                href="tel:+110001111111"
-                class="mobmenu-navigation-address current"
-                >+11 (000) 111-11-11</a
-              >
+          <address class="mob-cont">
+            <ul class="mob-navigation-address">
+              <li class="mob-navigation-address-item">
+                <a
+                  href="tel:+110001111111"
+                  class="mobmenu-navigation-address current"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mob-navigation-address-item">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="mobmenu-navigation-address"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="header-icon-list">
+            <li class="header-list-icon-item">
+              <a href="" class="header-list-icon-link" target="_blank"
+                ><svg class="header-list-icon-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="mob-navigation-address-item">
-              <a
-                href="mailto:info@devstudio.com"
-                class="mobmenu-navigation-address"
-                >info@devstudio.com</a
-              >
+            <li class="header-list-icon-item">
+              <a href="" class="header-list-icon-link" target="_blank"
+                ><svg class="header-list-icon-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header-list-icon-item">
+              <a href="" class="header-list-icon-link" target="_blank"
+                ><svg class="header-list-icon-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header-list-icon-item">
+              <a href="" class="header-list-icon-link" target="_blank"
+                ><svg class="header-list-icon-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
-        <ul class="header-icon-list">
-          <li class="header-list-icon-item">
-            <a href="" class="header-list-icon-link" target="_blank"
-              ><svg class="header-list-icon-svg" width="24" height="24">
-                <use href="./images/icons.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="header-list-icon-item">
-            <a href="" class="header-list-icon-link" target="_blank"
-              ><svg class="header-list-icon-svg" width="24" height="24">
-                <use href="./images/icons.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="header-list-icon-item">
-            <a href="" class="header-list-icon-link" target="_blank"
-              ><svg class="header-list-icon-svg" width="24" height="24">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="header-list-icon-item">
-            <a href="" class="header-list-icon-link" target="_blank"
-              ><svg class="header-list-icon-svg" width="24" height="24">
-                <use href="./images/icons.svg#icon-linkedin"></use>
-              </svg>
-            </a>
-          </li>
-        </ul>
       </div>
     </header>
     <!--main-->
@@ -795,10 +798,12 @@
               ><span class="fake-true"
                 ><svg class="modal-checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-agree"></use></svg></span
-              >I accept the terms and conditions of the&nbsp;<a
-                href=""
-                class="privacy"
-                >Privacy Policy</a
+              ><span class="privacy-text"
+                >I accept the terms and conditions of the&nbsp;<a
+                  href=""
+                  class="privacy"
+                  >Privacy Policy</a
+                ></span
               ></label
             >
           </div>
