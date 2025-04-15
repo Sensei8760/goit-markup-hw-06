@@ -737,14 +737,12 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-
   min-width: 256px;
   margin-bottom: 16px;
 }
 .modal-input {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-
   width: 256px;
   padding-left: 38px;
   min-height: 40px;
@@ -852,11 +850,10 @@ span {
   display: flex;
   font-weight: 400;
   font-size: 12px;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.03em;
   color: #8e8f99;
   line-height: 1.17;
   align-items: center;
-  margin-bottom: 4px;
 
   a {
     line-height: 1.33333;
@@ -870,7 +867,7 @@ span {
 }
 .privacy-text {
   display: flex;
-  align-items: center;
+  flex-direction: column;
 }
 .privacy {
   color: #4d5ae5;
@@ -1018,6 +1015,12 @@ span {
     align-items: start;
     justify-content: start;
   }
+  .modal-check-label {
+    letter-spacing: 0.04em;
+  }
+  .privacy-text {
+    flex-direction: row;
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -1163,5 +1166,11 @@ span {
   }
   .modal-text-area {
     width: 360px;
+  }
+  .modal-check-label {
+    letter-spacing: 0.04em;
+  }
+  .privacy-text {
+    flex-direction: row;
   }
 }
